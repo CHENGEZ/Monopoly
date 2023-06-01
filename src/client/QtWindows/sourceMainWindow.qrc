@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../../plots/Monopoly_board.jpeg</file>
+        <file>../../../plots/Ave Plots/1.png</file>
+        <file>../../../plots/Ave Plots/3.png</file>
+        <file>../../../plots/frame.png</file>
+        <file>../../../plots/frame2.png</file>
+        <file>../../../plots/monopoly_login.jpeg</file>
+        <file>../../../plots/monopoly_title.jpeg</file>
+        <file>../../../plots/monopoly_welcome.png</file>
+    </qresource>
+</RCC>
