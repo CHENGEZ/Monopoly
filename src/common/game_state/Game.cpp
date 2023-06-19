@@ -252,7 +252,7 @@ void Game::executeEvent(EventCommand command, int cellID, std::string &err)
         break;
     case MOVE_TO_NEAREST_RAIL: // This requires paying double
         movePlayerToNearestRailroad(getPlayerFromId(this->_cells[cellID]->getPlayerOnCell().back()), err);
-        movePlayerToNearestRailroad(getPlayerFromId(this->_cells[cellID]->getPlayerOnCell().back()), dummy);
+        // movePlayerToNearestRailroad(getPlayerFromId(this->_cells[cellID]->getPlayerOnCell().back()), dummy);
         break;
     case GET_OUT_OF_JAIL_FREE_CARD:
         getPlayerFromId(this->_cells[cellID]->getPlayerOnCell().back())->setNumGetOutOfJailFreeCard(getPlayerFromId(this->_cells[cellID]->getPlayerOnCell().back())->getNumGetOutOfJailFreeCard() + 1);
