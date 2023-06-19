@@ -35,13 +35,7 @@ Code base for the Monopoly game implementation of ETH-Zurich Software Engineerin
 - **Display Requirements**: The game currently only support "Light Mode Display". You may not be able to properly see some images or characters if "Dark Mode Display" is used.
 
 
-## Download
 
-Download the repository locally with the following command:
-
-```
-git clone https://gitlab.ethz.ch/chengyi/monopoly.git
-```
 
 ## Build Instructions
 1. Please first build `sockpp`.
